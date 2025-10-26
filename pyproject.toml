@@ -1,0 +1,11 @@
+[project]
+name = "mcp-server-jokes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpc>=0.12.0",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.19.0",
+]
